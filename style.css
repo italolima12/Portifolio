@@ -121,6 +121,40 @@ section.topo-do-site .flex {
     }
 }
 
+/* estilo das especialidades */
+section.especialidades {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px purple;
+
+}
+
+section.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: purple;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+} 
+
 /* ESTILO DO SOBRE */
 section.sobre {
     padding: 80px 4%;
